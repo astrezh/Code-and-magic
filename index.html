@@ -181,13 +181,9 @@
   </div>
 </template>
 <script>
-  var  wizardSpeed = 3;
-  var wizardWidth = 70;
-  var fireballSize = function (){
-    return fireballSize;
-  }
+  var fireballSize = 22;
   var getFireballSpeed = function(left) {
-    if left==true {
+    if (left==true){
       var fireballSpeed = 5;
       return fireballSpeed;
     } else {
@@ -195,7 +191,8 @@
       return fireballSpeed;
     }
   };
-  
+  var wizardSpeed = 3;
+  var wizardWidth = 70;
   var getWizardHeight=(){
     var rateWizardHeight = 1.337*wizardWidth;
     return rateWizardHeight;
@@ -210,7 +207,8 @@
     return height;
   };
 </script>
+<script src="js/setap.js"></script>
+<script src="js/stat.js"></script>
 <script src="js/game.js"></script>
-
 </body>
 </html>
